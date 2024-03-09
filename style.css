@@ -9,10 +9,10 @@ body{
     height: 100vh;
 }
 #image-container{
-    height: 350px;
+    height: 150px;
 }
 img{
-    width: 300px;
+    width: 100px;
 }
 .btn{
     padding: 10px;

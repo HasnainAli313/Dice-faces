@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(235, 232, 232);
+    background-color: rgb (245, 245, 245);
 }
 .container{
     display: flex;
@@ -13,6 +13,7 @@ body{
 }
 img{
     width: 100px;
+    border-radius: 5px;
 }
 .btn{
     padding: 10px;
@@ -21,7 +22,7 @@ img{
     font-size: large;
     font-weight: bold;
     border-radius: 20px;
-    border: none;
+    border: 1px solid black;
 }
 .btn:hover{
     background-color: rgb(92, 186, 223);
@@ -30,4 +31,11 @@ img{
 .heading{
     font-size: larger;
     color: rgb(238, 55, 55);
+}
+.box{
+    border: 1px solid black;
+    text-align: center;
+    background-color: rgb(254, 254, 250);
+        padding: 20px;
+    border-radius: 10px;
 }
